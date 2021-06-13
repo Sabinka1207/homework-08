@@ -79,7 +79,7 @@ const descr = item.description
   item = `
 <li class="gallery__item">
 <a href="#" class="gallery__link">
-<img src="${prev}" data-source="${origin}" class"gallery__image" alt="${descr}"></a>
+<img src="${prev}" data-source="${origin}" class="gallery__image" alt="${descr}"></a>
 </li>`
   
   items.push(item)

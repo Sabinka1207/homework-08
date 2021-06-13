@@ -39,13 +39,13 @@ body {
 
 .gallery__item {
   position: relative;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-  overflow: hidden;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px #00000024,
+    0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  /* overflow: hidden; */
 }
 
 .gallery__image:hover {
-  transform: scale(1.33);
+  transform: scale(1.03);
 }
 
 .gallery__image {
